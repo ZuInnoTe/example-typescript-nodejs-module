@@ -3,7 +3,7 @@ This example is about a simple Typescript nodejs module that can be published to
 
 If you want to start a new nodejs module based on Typescript without a graphical user interface (GUI) then you can simply use this one.
 It uses:
-* Typescript to write more secure and maintainable Javascript code
+* [Typescript](https://en.wikipedia.org/wiki/TypeScript) to write more secure and maintainable Javascript code
 * [Eslint](https://en.wikipedia.org/wiki/ESLint) to analyse your code for inconsistencies, bad practices or security issues using [static code analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
 * [Jasmine](https://jasmine.github.io/) to write unit tests for your module
 * [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your mdoule code is covered by unit tests
@@ -27,6 +27,7 @@ Analysis of the code can be run via
 npm run codeanalysis
 ```
 If there are issues with your code it will prompt them to you include the line of code and the issue.
+You can configure it via the configuration file [.eslintrc.json](.eslintrc.json)
 
 # Test
 Testing can be run via
@@ -40,7 +41,11 @@ It will produce a table that shows you a summary of your test coverage of your m
 
 It is recommended to store the test results in a versioned manner with your release files, so people can check them.
 
-You can specify your own tests by adding a *.spec.ts file in the folder spec. See [index.spec.ts](spec/index.spec.ts) for an example.
+You can specify your own tests by adding a *.spec.ts file in the folder spec. See [spec/index.spec.ts](spec/index.spec.ts) for an example.
+
+You can configure testing via [spec/support/jasmin.json](spec/support/jasmine.json).
+
+You can configure coverage via [.nycrc.json](.nycrc.json).
 
 
 # License
