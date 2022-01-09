@@ -5,11 +5,11 @@ This example is about a simple Typescript nodejs module that can be published to
 If you want to start a new nodejs module based on Typescript without a graphical user interface (GUI) then you can simply use this one.
 It uses:
 
-- [Typescript](https://en.wikipedia.org/wiki/TypeScript) to write more secure and maintainable Javascript code
+* [Typescript](https://en.wikipedia.org/wiki/TypeScript) to write more secure and maintainable Javascript code
 * [Prettier](https://prettier.io/docs/en/index.html) to make your code more readable using [code formatting](https://en.wikipedia.org/wiki/Prettyprint)
-- [Eslint](https://en.wikipedia.org/wiki/ESLint) to analyse your code for inconsistencies, bad practices or security issues using [static code analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
-- [Jasmine](https://jasmine.github.io/) to write unit tests for your module
-- [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your module code is [covered](https://en.wikipedia.org/wiki/Code_coverage) by unit tests
+* [Eslint](https://en.wikipedia.org/wiki/ESLint) to analyse your code for inconsistencies, bad practices or security issues using [static code analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
+* [Jasmine](https://jasmine.github.io/) to write unit tests for your module
+* [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your module code is [covered](https://en.wikipedia.org/wiki/Code_coverage) by unit tests
 
 # Clean
 
