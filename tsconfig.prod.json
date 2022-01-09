@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "exclude": ["**/*.spec.ts"],
   "compilerOptions": {
-    "sourceMap": false
+    "sourceMap": false,
+    "outDir": "dist"
   }
 }

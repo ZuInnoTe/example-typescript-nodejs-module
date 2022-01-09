@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project tsconfig.dev.json",
-    "build-prod": "tsc --project tsconfig.prod.json",
+    "build-prod": "npm run clean && tsc --project tsconfig.prod.json",
     "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output && rm -rf dist",
     "fmt": "prettier --write .",
     "codeanalysis": "eslint src",
