@@ -6,7 +6,7 @@ It uses:
 * [Typescript](https://en.wikipedia.org/wiki/TypeScript) to write more secure and maintainable Javascript code
 * [Eslint](https://en.wikipedia.org/wiki/ESLint) to analyse your code for inconsistencies, bad practices or security issues using [static code analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
 * [Jasmine](https://jasmine.github.io/) to write unit tests for your module
-* [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your mdoule code is covered by unit tests
+* [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your module code is [covered](https://en.wikipedia.org/wiki/Code_coverage) by unit tests
 
 # Clean
 In order to clean all build outputs (dist, coverage etc.) you need to run
