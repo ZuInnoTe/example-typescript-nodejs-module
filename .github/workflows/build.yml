@@ -11,7 +11,7 @@ jobs:
       - run: npm install
       - run: npm run fmt
       - run: npm run build
-      - run: npm run codeanalyis
+      - run: npm run codeanalysis
       - run: npm run test
   build-prod:
     runs-on: ubuntu-latest
