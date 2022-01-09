@@ -39,6 +39,14 @@ npm run build
 
 You will will find all built code in the dist folder
 
+# Build for production
+Production builds are more compact and do not contain unnecessary files.
+You can build a production build using
+```
+npm run build-prod
+```
+You will will find all built code in the dist folder
+
 # Code analysis
 
 Analysis of the code can be run via
