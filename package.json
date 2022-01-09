@@ -1,0 +1,37 @@
+{
+  "name": "example-typescript-nodejs-module",
+  "version": "1.0.0",
+  "description": "This example is about a simpel Typescript nodejs module that can be published to npmjs.org or other NPM registries. It should help you to quickly start a new Typescript project with all important aspects of a project, such as testing.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output",
+    "codeanalysis": "eslint src",
+    "test": "nyc  --require ts-node/register jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZuInnoTe/example-typescript-nodejs-module.git"
+  },
+  "keywords": [],
+  "author": "Jörn Franke",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ZuInnoTe/example-typescript-nodejs-module/issues"
+  },
+  "homepage": "https://github.com/ZuInnoTe/example-typescript-nodejs-module#readme",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/jasmine": "^3.10.3",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "jasmine": "^4.0.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nyc": "^15.1.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
