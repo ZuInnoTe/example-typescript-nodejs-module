@@ -79,6 +79,13 @@ You can configure testing via [spec/support/jasmin.json](spec/support/jasmine.js
 
 You can configure coverage via [.nycrc.json](.nycrc.json).
 
+# Continuous Integration Pipeline
+We provide a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) pipeline using [Github Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
+
+The workflow is defined in [.github/workflows/build.yml](.github/workflows/build.yml).
+
+
+You may also look at other continuous integration alternatives, such as [Travis-CI](https://www.travis-ci.com/).
 # License
 
 Copyright 2021 ZuInnoTe (Jörn Franke)
