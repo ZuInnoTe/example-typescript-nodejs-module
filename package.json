@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --build",
-    "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output",
+    "build": "tsc --project tsconfig.dev.json",
+    "build-prod": "tsc --project tsconfig.prod.json",
+    "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output && rm -rf dist",
     "fmt": "prettier --write .",
     "codeanalysis": "eslint src",
     "test": "nyc  --require ts-node/register jasmine"
