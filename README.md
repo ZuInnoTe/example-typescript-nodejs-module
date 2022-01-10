@@ -6,6 +6,7 @@ If you want to start a new nodejs module based on Typescript without a graphical
 It uses:
 
 * [Typescript](https://en.wikipedia.org/wiki/TypeScript) to write more secure and maintainable Javascript code
+* [Typedoc](https://typedoc.org/) - to create HTML documentation out of your source code comments
 * [Prettier](https://prettier.io/docs/en/index.html) to make your code more readable using [code formatting](https://en.wikipedia.org/wiki/Prettyprint)
 * [Eslint](https://en.wikipedia.org/wiki/ESLint) to analyse your code for inconsistencies, bad practices or security issues using [static code analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
 * [Jasmine](https://jasmine.github.io/) to write unit tests for your module
@@ -28,6 +29,20 @@ npm run fmt
 You can define which files should be ignored by this in [.prettierignore](.prrettierignore). It is often very similar to your .gitignore.
 
 You can configure the code formatting in [.prettierrc.json](.prettierrc.json).
+
+# Code Documentation
+Documenting your core APIs of your module is crucial for its reuse and maintainability.
+You can generate the code documentation as follows:
+```
+npm run typedoc
+```
+ 
+You will then find in the folder docs/code/ the documentation which can be openend using index.html and browser.
+ 
+See here how to add useful comments to your source code so they make a great documentation:
+https://typedoc.org/guides/doccomments/
+
+Ideally you make the code documentation in a versioned manner available with your release or in a dedicated versioned git repository. Furthermore, you should make them browsable so that the users of your module can access the documentation without barriers. For example, [Github Pages](https://pages.github.com/) can be used for this.
 
 # Build
 

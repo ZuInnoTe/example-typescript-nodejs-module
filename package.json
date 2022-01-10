@@ -7,11 +7,15 @@
   "scripts": {
     "build": "tsc --project tsconfig.dev.json",
     "build-prod": "npm run clean && tsc --project tsconfig.prod.json",
+    "typedoc": "typedoc --tsconfig tsconfig.prod.json ./src --out docs/code",
     "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output && rm -rf dist",
     "fmt": "prettier --write .",
     "codeanalysis": "eslint src",
     "test": "nyc  --require ts-node/register jasmine"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZuInnoTe/example-typescript-nodejs-module.git"
@@ -35,6 +39,7 @@
     "prettier": "2.5.1",
     "source-map-support": "^0.5.21",
     "ts-node": "^10.4.0",
+    "typedoc": "^0.22.10",
     "typescript": "^4.5.4"
   }
 }
