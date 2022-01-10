@@ -8,7 +8,7 @@
     "build": "tsc --project tsconfig.dev.json",
     "build-prod": "npm run clean && tsc --project tsconfig.prod.json",
     "typedoc": "typedoc --tsconfig tsconfig.prod.json ./src --out docs/code",
-    "clean": "tsc --build --clean && rm -rf coverage && rm -rf .nyc_output && rm -rf dist",
+    "clean": "tsc --build --clean && rm -rf docs/code && rm -rf coverage && rm -rf .nyc_output && rm -rf dist",
     "fmt": "prettier --write .",
     "codeanalysis": "eslint src",
     "test": "nyc  --require ts-node/register jasmine"
