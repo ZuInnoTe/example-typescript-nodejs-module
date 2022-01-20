@@ -26,7 +26,7 @@ You can automatically format all your code by running
 npm run fmt
 ```
 
-You can define which files should be ignored by this in [.prettierignore](.prrettierignore). It is often very similar to your .gitignore.
+You can define which files should be ignored by this in [.prettierignore](.prettierignore). It is often very similar to your .gitignore.
 
 You can configure the code formatting in [.prettierrc.json](.prettierrc.json).
 
