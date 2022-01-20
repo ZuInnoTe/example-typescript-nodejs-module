@@ -4,6 +4,6 @@
   "compilerOptions": {
     "sourceMap": true,
     "outDir": "dist",
-    "declarationMap": true,
+    "declarationMap": true
   }
 }
