@@ -3,6 +3,7 @@
   "exclude": ["**/*.spec.ts"],
   "compilerOptions": {
     "sourceMap": false,
+    "declarationMap": false,
     "outDir": "dist"
   }
 }

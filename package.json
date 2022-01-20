@@ -1,6 +1,6 @@
 {
   "name": "example-typescript-nodejs-module",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "This example is about a simple Typescript nodejs module that can be published to npmjs.org or other NPM registries. It should help you to quickly start a new Typescript project with all important aspects of a project, such as testing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
