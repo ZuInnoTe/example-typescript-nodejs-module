@@ -29,17 +29,17 @@
   "homepage": "https://github.com/ZuInnoTe/example-typescript-nodejs-module#readme",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
-    "@types/jasmine": "^3.10.3",
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "eslint": "^8.6.0",
-    "jasmine": "^4.0.1",
+    "@types/jasmine": "^3.10.6",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "jasmine": "^4.1.0",
     "jasmine-spec-reporter": "^7.0.0",
     "nyc": "^15.1.0",
     "prettier": "2.5.1",
     "source-map-support": "^0.5.21",
-    "ts-node": "^10.4.0",
-    "typedoc": "^0.22.10",
-    "typescript": "^4.5.4"
+    "ts-node": "^10.7.0",
+    "typedoc": "^0.22.15",
+    "typescript": "^4.6.3"
   }
 }
