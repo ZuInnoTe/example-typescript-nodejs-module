@@ -12,6 +12,11 @@ It uses:
 * [Jasmine](https://jasmine.github.io/) to write unit tests for your module
 * [Istanbul NYC](https://github.com/istanbuljs/nyc) to calculate how much of your module code is [covered](https://en.wikipedia.org/wiki/Code_coverage) by unit tests
 
+This package is available on:
+* Codeberg (a non-commercial European hosted Git for Open Source): https://codeberg.org/ZuInnoTe/example-typescript-nodejs-module
+* Github (an US hosted commercial Git platform): https://github.com/ZuInnoTe/example-typescript-nodejs-module
+
+
 # Clean
 
 In order to clean all build outputs (dist, coverage etc.) you need to run
