@@ -1,6 +1,6 @@
 {
   "name": "example-typescript-nodejs-module",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "This example is about a simple Typescript nodejs module that can be published to npmjs.org or other NPM registries. It should help you to quickly start a new Typescript project with all important aspects of a project, such as testing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,17 +29,17 @@
   "homepage": "https://github.com/ZuInnoTe/example-typescript-nodejs-module#readme",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
-    "@types/jasmine": "^3.10.6",
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
-    "@typescript-eslint/parser": "^5.20.0",
-    "eslint": "^8.13.0",
-    "jasmine": "^4.1.0",
+    "@types/jasmine": "^4.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "jasmine": "^4.2.1",
     "jasmine-spec-reporter": "^7.0.0",
     "nyc": "^15.1.0",
-    "prettier": "2.5.1",
+    "prettier": "2.7.1",
     "source-map-support": "^0.5.21",
-    "ts-node": "^10.7.0",
-    "typedoc": "^0.22.15",
-    "typescript": "^4.6.3"
+    "ts-node": "^10.8.2",
+    "typedoc": "^0.23.7",
+    "typescript": "^4.7.4"
   }
 }
